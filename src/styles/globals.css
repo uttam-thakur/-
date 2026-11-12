@@ -1116,13 +1116,33 @@ p {
   bottom: -7px;
   right: -7px;
 }
+
+
+
+/* .footer .desert {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 220px;
+  object-fit: cover;
+  object-position: center;
+} */
+
 .footer {
+  position: relative;
+  overflow: hidden;
+  min-height: max(640px, 49.74vw);
+  text-align: center;
+  isolation: isolate;
+}
+
+/* .footer {
   position: relative;
   isolation: isolate;
   overflow: hidden;
   min-height: max(640px, 49.74vw);
   text-align: center;
-}
+} */
 .footer-details {
   position: relative;
   z-index: 1;
