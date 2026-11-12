@@ -1,0 +1,134 @@
+/* Parchment surfaces echo the invitation; wine is reserved for fine accents. */
+.venue-card,
+.rsvp-form {
+  --card-paper: #fffaf0;
+  --card-ink: #513c2c;
+  --card-gold: #997134;
+  --card-line: #cfb681;
+  color: var(--card-ink);
+  background: radial-gradient(ellipse at 30% 0%, #fffdf7, #f7ecd6 85%);
+  border-color: var(--card-line);
+  outline-color: #b7945559;
+  box-shadow: 0 16px 40px #76572e18;
+}
+.venue-card::before,
+.rsvp-form::before {
+  background-image: radial-gradient(circle, #a97e3830 1px, transparent 1px);
+}
+.venue-background {
+  opacity: 0.035;
+}
+.venue-copy .script,
+.rsvp-form > .script {
+  color: #947033;
+}
+.venue-copy h3,
+.rsvp-form h3 {
+  color: #831e2c;
+}
+.venue-copy small,
+.rsvp-form label,
+.rsvp-form legend {
+  color: #715830;
+}
+.venue-copy p:not(.script),
+.venue-detail p,
+.guest-counter > span,
+.guest-counter output,
+.rsvp-form .form-status {
+  color: var(--card-ink);
+}
+.venue-detail {
+  background: #fffdf7b3;
+  border-color: #c4a56b55;
+}
+.venue-detail > span {
+  background: #f2e5ca;
+  border-color: #c4a56b;
+  color: #846126;
+}
+.venue-card .corner,
+.rsvp-form .corner {
+  background: radial-gradient(#fff5d7, #bd9651);
+  border-color: #ad8545;
+}
+.rsvp-crest {
+  background: radial-gradient(circle at 35% 25%, #fffaf0, #ead6a9);
+  border-color: #c3a16b;
+  outline-color: #d1b783;
+  box-shadow: 0 0 0 7px #f3e7cf;
+  color: #831e2c;
+}
+.rsvp-form > input,
+.rsvp-form textarea {
+  background: #fffdf8;
+  border-color: #c9b78f;
+  color: var(--card-ink);
+}
+.rsvp-form input::placeholder,
+.rsvp-form textarea::placeholder {
+  color: #84755e;
+  opacity: 1;
+}
+.rsvp-form input:focus,
+.rsvp-form textarea:focus {
+  border-color: #997134;
+  box-shadow: 0 0 0 3px #b7945526;
+}
+.attendance label {
+  color: var(--card-ink);
+  background: #fffaf0;
+  border-color: #ccb78e;
+}
+.attendance label.checked {
+  background: linear-gradient(140deg, #f8edce, #eddbb3);
+  color: #702333;
+  border-color: #997134;
+  box-shadow: inset 0 0 0 1px #997134;
+}
+.attendance small {
+  opacity: 1;
+  color: #72614a;
+}
+.attendance label:focus-within,
+.guest-counter button:focus-visible,
+.rsvp-form .gold-button:focus-visible {
+  outline: 2px solid #831e2c;
+  outline-offset: 3px;
+}
+.guest-counter button {
+  background: #fffaf0;
+  border-color: #b89a60;
+  color: #785728;
+}
+.guest-counter button:disabled {
+  opacity: 0.45;
+}
+.rsvp-form > .gold-button {
+  background: linear-gradient(135deg, #ecd6a5, #c6a063);
+  color: #49321d;
+  border: 1px solid #af8749;
+  box-shadow: 0 4px 12px #76572e18;
+}
+
+.venue-map {
+  position: relative;
+  align-self: center;
+  min-width: 0;
+}
+.venue-card .venue-map iframe {
+  display: block;
+  width: 100%;
+  height: clamp(280px, 32vw, 440px);
+  border: 2px solid #c4a56b;
+  border-radius: 18px;
+  background: #f7ecd6;
+}
+.venue-map > .gold-button {
+  display: block;
+  margin-top: 16px;
+  text-align: center;
+  text-decoration: none;
+  background: #ead6ad;
+  color: #513c2c;
+}
