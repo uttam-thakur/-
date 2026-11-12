@@ -1118,16 +1118,6 @@ p {
 }
 
 
-
-/* .footer .desert {
-  display: block;
-  width: 100%;
-  height: auto;
-  min-height: 220px;
-  object-fit: cover;
-  object-position: center;
-} */
-
 .footer {
   position: relative;
   overflow: hidden;
