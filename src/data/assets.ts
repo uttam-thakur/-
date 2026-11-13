@@ -10,8 +10,8 @@ export const assets = {
   familyWomanG: root + 'familyG-woman.jpg',
   familysisterG: root + 'familyG-sister.jpg',
 
-  familyManB: root + 'familyB-man.jpeg',
-  familyWomanB: root + 'familyB-women.jpeg',
+  familyManB: root + 'familyB-man.jpg',
+  familyWomanB: root + 'familyB-women.jpg',
   familysister1B: root + 'family1B-sister.jpg',
   familysister2B: root + 'family2B-sister.jpg',
   
