@@ -51,8 +51,10 @@ export const copy = {
     title: 'The Royal Couple',
     brideRole: 'The Bride',
     groomRole: 'The Groom',
-    groomParents: 'Son of {parents}',
-    brideParents: 'Daughter of {parents}',
+    // groomParents: 'Son of {parents}',
+    // brideParents: 'Daughter of {parents}',
+ groomParents: 'Son of Krishna Bihari & Champa Devi',
+    brideParents: 'Daughter of Raju Kumar & Susma Devi ',
   },
   family: {
     eyebrow: 'With love and blessings',

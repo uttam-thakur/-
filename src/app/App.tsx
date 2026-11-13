@@ -61,7 +61,7 @@ export default function App() {
       {/* Background wedding music */}
       <audio
         ref={musicRef}
-        src="/music/wedding.mp3"
+        src="/music/wedding.mpeg"
         loop
         preload="auto"
       />

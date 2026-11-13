@@ -52,7 +52,7 @@ export const story = [
   },
   {
     id: 'engagement',
-    year: '2026',
+    year: '2025',
     date: 'A Promise of Forever',
     title: 'OUR ENGAGEMENT',
     description:

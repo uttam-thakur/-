@@ -7,7 +7,9 @@ export type WeddingEvent = {
   venueId: string;
   dress: string;
   note?: string;
+  fontSize?: string;
 };
+
 export const events: WeddingEvent[] = [
   {
     id: 'haldi',
@@ -25,6 +27,7 @@ export const events: WeddingEvent[] = [
     startsAt: '2026-11-29T16:00:00+05:30',
     venueId: 'lawns',
     dress: 'Green & Gold',
+
   },
   {
     id: 'sangeet',
@@ -43,12 +46,6 @@ export const events: WeddingEvent[] = [
     venueId: 'banquet',
     dress: 'Traditional Formal',
   },
-  {
-    id: 'reception',
-    icon: '🥂',
-    name: 'Reception',
-    startsAt: '2026-11-30T19:00:00+05:30',
-    venueId: 'banquet',
-    dress: 'Formal',
-  },
+  
 ];
+

@@ -2,13 +2,13 @@ export const venues = [
   {
     id: 'residence',
     name: 'Home',
-    address: 'Chinakuri Bazar, Asansol',
+    address: 'Railpar, Asansol',
     image: 'jharokha',
   },
   {
     id: 'lawns',
     name: 'Home',
-    address: 'Chinakuri Bazar, Asansol',
+    address: 'Railpar, Asansol',
     image: 'courtyard',
   },
   {

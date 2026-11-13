@@ -41,8 +41,13 @@ export default function FestivitiesSection() {
                     <span className="event-icon" aria-hidden="true">
                       {event.icon}
                     </span>
-                    <h3>{event.name}</h3>
-                    {event.note && <em>{event.note}</em>}
+<h3
+  style={{
+    fontSize: event.id === 'mehndi' ? '29px' : undefined,
+  }}
+>
+  {event.name}
+</h3>                    {event.note && <em>{event.note}</em>}
                     <p>{shortDate(event.startsAt)}</p>
                     <span className="event-rule" />
                     <p>{timeOnly(event.startsAt)}</p>
