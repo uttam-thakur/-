@@ -1126,13 +1126,6 @@ p {
   isolation: isolate;
 }
 
-/* .footer {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  min-height: max(640px, 49.74vw);
-  text-align: center;
-} */
 .footer-details {
   position: relative;
   z-index: 1;
